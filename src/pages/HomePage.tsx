@@ -1,11 +1,14 @@
-import { Header } from "@/components/Header"
+import { CallToAction } from "@/components/CallToAction"
+import { Features } from "@/components/Features"
 import { HeroMain } from "@/components/HeroMain"
+import { MainLayout } from "@/layout/MainLayout"
 
 export const HomePage = () => {
   return (
-    <main>
-      <Header/>
+    <MainLayout>
       <HeroMain/>
-    </main>
+      <Features/>
+      <CallToAction/>
+    </MainLayout>
   )
 }
