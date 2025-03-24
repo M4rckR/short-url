@@ -2,7 +2,7 @@ import { Button } from "./ui/button"
 
 export const HeroMain = () => {
   return (
-    <section className="container px-4 mx-auto max-w-[1200px] my-8">
+    <section className="container px-4 mx-auto max-w-[1200px] mt-8 mb-32">
         <div className="flex flex-col justify-center items-center relative space-y-6 md:flex-row lg:gap-8">
             <img className="block translate-x-8 max-w-[400px] lg:max-w-none  md:order-2 md:w-1/2" src="/images/illustration-working.svg" alt="lustracion hero" />
             <div className="md:w-1/2 flex flex-col items-center px-6 space-y-4 sm:px-16 md:px-0 md:order-1 md:items-start">

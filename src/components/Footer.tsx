@@ -34,16 +34,16 @@ export const Footer = () => {
             </div>
             <div className="flex justify-end gap-4 md:flex-1/4">
                 <a href="#">
-                    <img className="hover:text-m-cyan" src="/public/images/icon-facebook.svg" alt="facebook" />
+                    <img className="hover:text-m-cyan" src="/images/icon-facebook.svg" alt="facebook" />
                 </a>
                 <a href="#">
-                    <img className="hover:text-m-cyan" src="/public/images/icon-twitter.svg" alt="twitter" />
+                    <img className="hover:text-m-cyan" src="/images/icon-twitter.svg" alt="twitter" />
                 </a>
                 <a href="#">
-                    <img className="hover:text-m-cyan" src="/public/images/icon-pinterest.svg" alt="pinterest" />
+                    <img className="hover:text-m-cyan" src="/images/icon-pinterest.svg" alt="pinterest" />
                 </a>
                 <a href="#">
-                    <img className="hover:text-m-cyan" src="/public/images/icon-instagram.svg" alt="instagram" />
+                    <img className="hover:text-m-cyan" src="/images/icon-instagram.svg" alt="instagram" />
                 </a>
             </div>
         </div>
